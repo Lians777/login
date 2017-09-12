@@ -10,6 +10,12 @@
 	<div class="row">
 
 		<div class="col-5">
+		<?php
+					if(isset($error)) {
+						echo '<div class="alert alert-danger">'.$error.'</div>';
+					}
+				?>
+				
 
 
 		 </div>
